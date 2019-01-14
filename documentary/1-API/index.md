@@ -1,25 +1,25 @@
 ## API
 
-The package is available by importing its default function:
+The package is available by importing its named functions:
 
 ```js
-import wrote from '@wrote/wrote'
+import { read, write, rm, ensurePath } from '@wrote/wrote'
 ```
 
 %~%
 
-```## wrote
+## Packages
+
+These packages are included in the meta-library.
+
+```table
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["Method", "Description", "Package"],
+  ["`write`", "Writes a file.", "[@wrote/write](https://github.com/wrote/write)"],
+  ["`read`", "Reads a file.", "[@wrote/read](https://github.com/wrote/read)"],
+  ["`ensurePath`", "Creates all directories on the way to the path.", "[@wrote/ensure-path](https://github.com/wrote/ensure-path)"],
+  ["rm", "Removes a file or directory.", "[@wrote/rm](https://github.com/wrote/rm)"]
 ]
 ```
-
-Call this function to get the result you want.
-
-%TYPEDEF types/index.xml%
-
-%EXAMPLE: example/example.js, ../src => @wrote/wrote%
-%FORK example example/example%
 
 %~%

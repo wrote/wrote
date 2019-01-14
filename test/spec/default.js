@@ -1,21 +1,21 @@
-import { equal, ok } from 'zoroaster/assert'
+import { equal } from 'zoroaster/assert'
 import Context from '../context'
-import wrote from '../../src'
+import { write, read, rm, ensurePath } from '../../src'
 
 /** @type {Object.<string, (c: Context)>} */
 const T = {
   context: Context,
-  'is a function'() {
-    equal(typeof wrote, 'function')
+  'write is a function'() {
+    equal(typeof write, 'function')
   },
-  async 'calls package without error'() {
-    await wrote()
+  'read is a function'() {
+    equal(typeof read, 'function')
   },
-  async 'gets a link to the fixture'({ FIXTURE }) {
-    const res = await wrote({
-      text: FIXTURE,
-    })
-    ok(res, FIXTURE)
+  'ensurePath is a function'() {
+    equal(typeof ensurePath, 'function')
+  },
+  'rm is a function'() {
+    equal(typeof rm, 'function')
   },
 }
 

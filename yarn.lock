@@ -35,11 +35,40 @@
   dependencies:
     makepromise "3.0.1"
 
+"@wrote/ensure-path@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@wrote/ensure-path/-/ensure-path-1.0.4.tgz#3a71baf99bbe0e9cf0f0e0ed38207aff863a44ed"
+  integrity sha512-6Ltxpqa1wdRxn9woscrArCwVZLi2pZBzhOJej9NCeZsxMe6hrgEUC4I7z++wYNPRA5MWUFKmWWp/unic4gG5SA==
+  dependencies:
+    makepromise "3.0.1"
+
 "@wrote/read-dir-structure@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@wrote/read-dir-structure/-/read-dir-structure-1.0.1.tgz#fe1bf41715a0dbf7c2fb65a7d7b4fefab127eb24"
   dependencies:
     makepromise "2.0.0"
+
+"@wrote/read@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wrote/read/-/read-1.0.1.tgz#c407247df93e43a24914d65a6ad3ecc1ab0da9e6"
+  integrity sha512-Ffm+8B41eWA8Gr3MNUZw88SzKLBT8pPc0lyZjwingIKddQ/q30c7kaJbtBeHBpD96/xx61i7NhVNDRtexCu1Qw==
+  dependencies:
+    catchment "3.1.1"
+
+"@wrote/rm@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@wrote/rm/-/rm-1.1.1.tgz#09acfc39071f3fe2347c1d4344eea3d810f9a8d3"
+  integrity sha512-/8sLAell0pds/t7utWq8iCZSDc2jhi+cbMqReJNiW8N9B8tVxSXDnX3NfkNb9DHv/aKZYq70rCEEDlX/r+PVuw==
+  dependencies:
+    "@wrote/read-dir-structure" "1.0.1"
+    makepromise "3.0.1"
+
+"@wrote/write@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@wrote/write/-/write-1.0.1.tgz#3bcc4d73428bf73c02f916bbc7a22455464ebe08"
+  integrity sha512-1NCTzeTTtdW2nszyt4p2jkiTXssuQZJbnEmRHgp1WLAbBbY7uhg5CPlZEInImslt7qpLcEDmXX0KRK+ytlqgqA==
+  dependencies:
+    erotic "2.0.1"
 
 "@zoroaster/fork@1.0.0":
   version "1.0.0"
