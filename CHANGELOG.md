@@ -1,3 +1,10 @@
+## 15 January 2019
+
+### 1.1.0
+
+- [feature] Add `readDirStructure`.
+- [package] Remove source maps.
+
 ## 14 January 2019
 
 ### 1.0.0
