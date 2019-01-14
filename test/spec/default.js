@@ -1,6 +1,6 @@
 import { equal } from 'zoroaster/assert'
 import Context from '../context'
-import { write, read, rm, ensurePath } from '../../src'
+import { write, read, rm, ensurePath, readDirStructure } from '../../src'
 
 /** @type {Object.<string, (c: Context)>} */
 const T = {
@@ -16,6 +16,9 @@ const T = {
   },
   'rm is a function'() {
     equal(typeof rm, 'function')
+  },
+  'readDirStructure is a function'() {
+    equal(typeof readDirStructure, 'function')
   },
 }
 

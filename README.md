@@ -22,7 +22,9 @@ yarn add -E @wrote/wrote
 The package is available by importing its named functions:
 
 ```js
-import { read, write, rm, ensurePath } from '@wrote/wrote'
+import {
+  read, write, rm, ensurePath, readDirStructure,
+} from '@wrote/wrote'
 ```
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/1.svg?sanitize=true"></a></p>
@@ -31,12 +33,13 @@ import { read, write, rm, ensurePath } from '@wrote/wrote'
 
 These packages are included in the meta-library.
 
-|    Method    |                   Description                   |                          Package                           |
-| ------------ | ----------------------------------------------- | ---------------------------------------------------------- |
+|       Method       |                   Description                   |                          Package                           |
+| ------------------ | ----------------------------------------------- | ---------------------------------------------------------- |
 | `write` | Writes a file.                                  | [@wrote/write](https://github.com/wrote/write)             |
 | `read` | Reads a file.                                   | [@wrote/read](https://github.com/wrote/read)               |
 | `ensurePath` | Creates all directories on the way to the path. | [@wrote/ensure-path](https://github.com/wrote/ensure-path) |
-| rm           | Removes a file or directory.                    | [@wrote/rm](https://github.com/wrote/rm)                   |
+| `rm` | Removes a file or directory.                    | [@wrote/rm](https://github.com/wrote/rm)                   |
+| `readDirStructure` | Reads a directory structure.                    | [@wrote/rm](https://github.com/wrote/read-dir-structure)   |
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>
 
