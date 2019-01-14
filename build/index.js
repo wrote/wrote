@@ -9,4 +9,3 @@ module.exports.write = $wrote_write
 module.exports.ensurePath = $wrote_ensure_path
 module.exports.rm = $wrote_rm
 module.exports.readDirStructure = $wrote_read_dir_structure
-//# sourceMappingURL=index.js.map
