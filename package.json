@@ -1,6 +1,6 @@
 {
   "name": "@wrote/wrote",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The Collection Of The Methods To Work With The Filesystem.",
   "main": "build",
   "module": "src/index.js",
