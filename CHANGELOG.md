@@ -1,3 +1,10 @@
+## 24 January 2019
+
+### 1.2.0
+
+- [feature] Add `exists` and `readBuffer`.
+- [package] Write footer.
+
 ## 15 January 2019
 
 ### 1.1.0
