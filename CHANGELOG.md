@@ -1,5 +1,9 @@
 ## 24 January 2019
 
+### 1.2.1
+
+- [fix] Add build.
+
 ### 1.2.0
 
 - [feature] Add `exists` and `readBuffer`.
