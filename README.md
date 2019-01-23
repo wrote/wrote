@@ -24,6 +24,7 @@ The package is available by importing its named functions:
 ```js
 import {
   read, write, rm, ensurePath, readDirStructure,
+  readBuffer, exists,
 } from '@wrote/wrote'
 ```
 
@@ -33,20 +34,42 @@ import {
 
 These packages are included in the meta-library.
 
-|       Method       |                   Description                   |                          Package                           |
-| ------------------ | ----------------------------------------------- | ---------------------------------------------------------- |
-| `write` | Writes a file.                                  | [@wrote/write](https://github.com/wrote/write)             |
-| `read` | Reads a file.                                   | [@wrote/read](https://github.com/wrote/read)               |
-| `ensurePath` | Creates all directories on the way to the path. | [@wrote/ensure-path](https://github.com/wrote/ensure-path) |
-| `rm` | Removes a file or directory.                    | [@wrote/rm](https://github.com/wrote/rm)                   |
-| `readDirStructure` | Reads a directory structure.                    | [@wrote/rm](https://github.com/wrote/read-dir-structure)   |
+|       Method       |                             Description                             |                          Package                           |
+| ------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `write` | Writes a file.                                                      | [@wrote/write](https://github.com/wrote/write)             |
+| `read` | Reads a file.                                                       | [@wrote/read](https://github.com/wrote/read)               |
+| `readBuffer` | Reads a file as a buffer.                                           | [@wrote/read](https://github.com/wrote/read)               |
+| `ensurePath` | Creates all directories on the way to the path.                     | [@wrote/ensure-path](https://github.com/wrote/ensure-path) |
+| `rm` | Removes a file or directory.                                        | [@wrote/rm](https://github.com/wrote/rm)                   |
+| `readDirStructure` | Reads a directory structure.                                        | [@wrote/rm](https://github.com/wrote/read-dir-structure)   |
+| `exists` | Checks if a file or directory exists and returns instance of Stats. | [@wrote/exists](https://github.com/wrote/exists)           |
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/2.svg?sanitize=true"></a></p>
 
 ## Copyright
 
-(c) [Wrote][1] 2019
-
-[1]: https://wrote.cc
+<table>
+<tr>
+  <th>
+    <a href="https://artd.eco">
+      <img src="images/artdeco.png" alt="Art Deco">
+    </a>
+  </th>
+  <th>&copy; <a href="https://artd.eco">Art Deco</a> for <a href="https://wrote.cc">Wrote</a> 2019</th>
+  <th>
+    <a href="https://wrote.cc">
+      <img src="images/wrote.jpeg" alt="Wrote Library">
+    </a>
+  </th>
+  <th>
+    <a href="https://www.technation.sucks" title="Tech Nation Visa">
+      <img src="images/technation.gif" alt="Tech Nation Visa">
+    </a>
+  </th>
+  <th>
+    <a href="https://www.technation.sucks">Tech Nation Visa Sucks</a>
+  </th>
+</tr>
+</table>
 
 <p align="center"><a href="#table-of-contents"><img src=".documentary/section-breaks/-1.svg?sanitize=true"></a></p>

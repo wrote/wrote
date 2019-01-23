@@ -1,24 +1,32 @@
-import { equal } from 'zoroaster/assert'
 import Context from '../context'
-import { write, read, rm, ensurePath, readDirStructure } from '../../src'
+import {
+  write, read, rm, ensurePath, readDirStructure,
+  readBuffer, exists,
+} from '../../src'
 
 /** @type {Object.<string, (c: Context)>} */
 const T = {
   context: Context,
-  'write is a function'() {
-    equal(typeof write, 'function')
+  'write is a function'({ assertFunction }) {
+    assertFunction(write)
   },
-  'read is a function'() {
-    equal(typeof read, 'function')
+  'read is a function'({ assertFunction }) {
+    assertFunction(read)
   },
-  'ensurePath is a function'() {
-    equal(typeof ensurePath, 'function')
+  'readBuffer is a function'({ assertFunction }) {
+    assertFunction(readBuffer)
   },
-  'rm is a function'() {
-    equal(typeof rm, 'function')
+  'ensurePath is a function'({ assertFunction }) {
+    assertFunction(ensurePath)
   },
-  'readDirStructure is a function'() {
-    equal(typeof readDirStructure, 'function')
+  'rm is a function'({ assertFunction }) {
+    assertFunction(rm)
+  },
+  'readDirStructure is a function'({ assertFunction }) {
+    assertFunction(readDirStructure)
+  },
+  'exists is a function'({ assertFunction }) {
+    assertFunction(exists)
   },
 }
 

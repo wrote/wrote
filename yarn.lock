@@ -47,6 +47,13 @@
   dependencies:
     makepromise "3.0.2"
 
+"@wrote/exists@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@wrote/exists/-/exists-1.0.0.tgz#d2964bf05b461493808b1f25358d0a50cec98849"
+  integrity sha512-SusQTEHX0NfrHBnQY8JWDmFEEEqUl3Leb+KxAtTdrfhBqbu8GypYkIuYrDhlsH1g4HRHRamemFAO13/GVB2xeQ==
+  dependencies:
+    makepromise "3.0.2"
+
 "@wrote/read-dir-structure@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@wrote/read-dir-structure/-/read-dir-structure-1.0.1.tgz#fe1bf41715a0dbf7c2fb65a7d7b4fefab127eb24"

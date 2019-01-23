@@ -1,3 +1,4 @@
+import { equal } from 'zoroaster'
 import { resolve } from 'path'
 import { debuglog } from 'util'
 
@@ -29,5 +30,8 @@ export default class Context {
   }
   async _destroy() {
     LOG('destroy context')
+  }
+  assertFunction(fn) {
+    equal(typeof fn, 'function')
   }
 }

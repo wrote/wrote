@@ -1,5 +1,6 @@
-export { default as read } from '@wrote/read'
+export { default as read, readBuffer } from '@wrote/read'
 export { default as write } from '@wrote/write'
 export { default as ensurePath } from '@wrote/ensure-path'
 export { default as rm } from '@wrote/rm'
 export { default as readDirStructure } from '@wrote/read-dir-structure'
+export { default as exists } from '@wrote/exists'
