@@ -1,3 +1,9 @@
+## 2 April 2019
+
+### [1.2.2](https://github.com/wrote/wrote/compare/v1.2.1...v1.2.2)
+
+- [deps] Update all scope dependencies.
+
 ## 24 January 2019
 
 ### 1.2.1
